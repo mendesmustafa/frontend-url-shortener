@@ -15,6 +15,9 @@
         <button type="submit" @click.prevent="login()">Giriş</button>
       </div>
     </form>
+    <div>
+      <button @click="$router.push('/user/save')">Kullanıcı Oluştur</button>
+    </div>
   </div>
 </template>
 
